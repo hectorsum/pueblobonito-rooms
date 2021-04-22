@@ -127,25 +127,25 @@ a {
 .price {
   color: #5a5959 !important;
   font-family: FiraSans-Medium !important;
-  font-size: 13.64px !important;
+  font-size: 18px !important;
   padding: 9px 0 !important;
   font-weight: 400 !important
 }
 
 .hotel-heading {
   font-family: FiraSans-Medium !important;
-  font-size: 15.16px !important;
+  font-size: 18px !important;
   margin-bottom: 7px !important;
   color: #000 !important;
   font-weight: 400 !important
 }
 
 .hotel-desc {
-  font-size: 12.13px !important;
+  font-size: 16px !important;
   line-height: 16px !important;
   color: #5a5959 !important;
   font-family: FiraSans-Light !important;
-  padding-top: 3px
+  /* padding-top: 3px */
 }
 
 .hotel-thumb {
@@ -179,7 +179,7 @@ a {
 }
 
 .detail-head {
-  font-size: 22.74px !important;
+  font-size: 22px !important;
   font-family: FiraSans-Medium !important;
   font-weight: 400 !important;
   text-transform: uppercase
@@ -191,9 +191,9 @@ a {
 }
 
 .txt {
-  font-size: 13.64px !important;
+  font-size: 16px !important;
   font-family: FiraSans-Light !important;
-  white-space: pre-line;
+  /* white-space: pre-line; */
   overflow: hidden;
   text-overflow: ellipsis
 }
@@ -272,7 +272,9 @@ b {
 .hotel-details-box .stuff {
   border-right: 0 !important;
   border-bottom: 0 !important;
-  padding: 24px 30px !important
+  padding: 24px 30px !important;
+  margin: 0;
+  padding: 0;
 }
 
 .hotel-details-box .stuff {
@@ -294,8 +296,10 @@ ul.sub-menu .selected {
   border: 1.5px solid #e6e6e6 !important;
   margin-left: 28px !important;
   margin: auto;
-  margin-right: 26px !important;
-  width: 95%
+  /* margin-right: 26px !important;
+  width: 95%; */
+  margin: 0 !important;
+  width: 100%;
 }
 
 .title-selec {
@@ -447,7 +451,7 @@ li {
 }
 
 .rate-type-name {
-  margin-left: 13px !important
+  /* margin-left: 13px !important */
 }
 
 .roms-selec {
@@ -521,10 +525,13 @@ form {
 
 @media(max-width:768px) {
   .inbox {
-    padding-left: 0;
-    padding-right: 31px
+    /* padding-left: 0; */
+    /* padding-right: 31px; */
+    padding: 0;
   }
-
+  .rate-types-list {
+    margin: 17px 0px !important
+  }
   .nest-half-right {
     background: #fafafa !important;
     width: auto
@@ -575,7 +582,7 @@ form {
   }
 
   .compare-btn2 {
-    margin-bottom: 12px !important
+    /* margin-bottom: 12px !important */
   }
 
   .prince2 a {
@@ -629,7 +636,8 @@ form {
 
   .sm-pad {
     padding-right: 5px;
-    padding-left: 0
+    padding-left: 0;
+    padding: 0;
   }
 
   .max-bot {

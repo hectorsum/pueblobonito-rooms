@@ -2522,7 +2522,7 @@ header#header>.sec-nav>ul>li a.selected {
   display: inline-block;
   color: #4e4e4e;
   padding: 15px 0;
-  width: 130px;
+  width: 100% !important;
   border-radius: 3px 3px 3px 3px;
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
