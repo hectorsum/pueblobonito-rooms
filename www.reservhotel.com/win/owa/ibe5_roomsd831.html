@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="../../ibe5/assets/css/font_awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../ibe5/assets/css/index.css" type="text/css">
   <link rel="stylesheet" href="../../ibe5/assets/css/rooms.css" type="text/css">
+  <link rel="stylesheet" href="../../ibe5/assets/css/new_rooms.css" type="text/css">
   <link rel="stylesheet" href="../../ibe5/assets/css/modal_index.css" type="text/css">
   <link rel="stylesheet" href="../../ibe5/assets/css/owl.carousel.min.css" type="text/css">
   <script type="text/javascript" src="../../ibe5/assets/js/jquery-3.5.1.min.js"></script>
@@ -770,9 +771,9 @@
     }
 
     @media screen and (max-width: 768px) {
-      .hotel-details-box .stuff{
-        padding:0 !important;
-      }
+      /* .hotel-details-box .stuff{
+        padding:0;
+      } */
       header#header .header-image-box {
         height: 113px;
         margin-top: 32px;
@@ -1302,25 +1303,25 @@
     <div id="loader"></div>
     <footer id="footer">
       <div class="row section-footer">
-        <div class="col-12 col-sm-12 col-md-8">
+        <div class="col-12 col-sm-12 col-md-8 p-0">
           <div class="row">
-            <div class="col-6 col-sm-6 col-md-12">
+            <div class="p-0 col-6 col-sm-6 col-md-12">
               <img src="../../ibe5/assets/images/secure-shopping.png" alt="Secure Shopping"
                 title="Your shopping is secure" />
             </div>
-            <div class="col-6 col-sm-6 visibility-only-mobile text-right">
+            <div class="p-0 col-6 col-sm-6 visibility-only-mobile text-right">
               <a class="pop-up-link badge-footer" href="#hotel-policies">Hotel Policies</a>
             </div>
-            <div class="col-12 col-sm-12 contact_information">
-              Copyright &reg; 2021<br><br>
-              For hotel information please call: +52 624 1429999<br>
-              For flight information please call: 1.800.219.2727
-              in US or Canada. From Mexico: 01.800.099.0214 All other countries please call:
-              +1.305.509.6212 | <a
-                href="https://www.reservhotel.com/cdn-cgi/l/email-protection#1e6e6b7b7c72717c7170776a716d6b706d7b6a5e6c7b6d7b6c6876716a7b72307d7173"><span
-                  class="__cf_email__"
-                  data-cfemail="70000515121c1f121f1e19041f03051e03150430021503150206181f04151c5e131f1d">[email&#160;protected]</span></a><br><br>
-              <p>
+            <div class="p-0 col-12 col-sm-12 contact_information">
+              <p class="m-0">
+                Copyright &reg; 2021<br><br>
+                For hotel information please call: +52 624 1429999<br>
+                For flight information please call: 1.800.219.2727
+                in US or Canada. From Mexico: 01.800.099.0214 All other countries please call:
+                +1.305.509.6212 | <a
+                  href="https://www.reservhotel.com/cdn-cgi/l/email-protection#1e6e6b7b7c72717c7170776a716d6b706d7b6a5e6c7b6d7b6c6876716a7b72307d7173"><span
+                    class="__cf_email__"
+                    data-cfemail="70000515121c1f121f1e19041f03051e03150430021503150206181f04151c5e131f1d">[email&#160;protected]</span></a><br><br>
               </p>
             </div>
           </div>
@@ -1331,18 +1332,23 @@
           <a class="pop-up-link badge-footer" href="#hotel-policies">Hotel Policies</a>
         </div>
         <div align="left"
-          style="margin-top:10px;color: #FFFFFF;text-align: center;margin-left: auto;margin-right: auto; padding:10px; background-color:#007CAD; text-decoration:none !important;">
+          style="margin:10px 0;color: #FFFFFF;text-align: center;margin-left: auto;margin-right: auto; padding:10px; background-color:#007CAD; text-decoration:none !important;">
           <a target="_blank" href="http://www.pueblobonitosunsetbeach.com/" style="color:#FFFFFF;">Home</a> | <a
-            target="_blank" href="http://www.pueblobonitosunsetbeach.com.mx/" style="color:#FFFFFF;">Inicio</a>��|��<a
-            target="_blank" href="http://www.pueblobonitosunsetbeach.com/cabo-all-inclusive" style="color:#FFFFFF;">All
+            target="_blank" href="http://www.pueblobonitosunsetbeach.com.mx/" style="color:#FFFFFF;">Inicio</a>
+            <a target="_blank" href="http://www.pueblobonitosunsetbeach.com/cabo-all-inclusive" style="color:#FFFFFF;">All
             Inclusive</a> | <a target="_blank" href="http://www.pueblobonitosunsetbeach.com.mx/cabo-todo-incluido"
-            style="color:#FFFFFF;">Todo Incluido</a>��|��<a target="_blank"
+            style="color:#FFFFFF;">Todo Incluido</a> | <a target="_blank"
             href="http://www.pueblobonito.com/privacy-policy" style="color:#FFFFFF;">Privacy Notice</a> | <a
             target="_blank" href="http://www.pueblobonito.com.mx/politica-de-privacidad" style="color:#FFFFFF;">Aviso de
             Privacidad</a></div>
       </div>
-      Powered by <br><a target="_blank" href="https://www.reservhotel.com/"><img
-          src="../../ibe4/assets/images/rhlogo.png" alt="ReservHotel Logo" style="width:11%;" /></a>
+      <p>
+        Powered by 
+        <br>
+        <a target="_blank" href="https://www.reservhotel.com/">
+          <img src="../../ibe4/assets/images/rhlogo.png" alt="ReservHotel Logo"/>
+        </a>
+      </p>
     </footer>
     <div class="pop-up" id="hotel-policies" style="max-width:500px;">
       <h3 class="pop-up-title">Hotel Policies</h3>The credit card used to guarantee the reservation must be present upon
@@ -2252,7 +2258,7 @@
         data: "hotel=10224&source=&lang=1&aDate=13-MAY-21&dDate=20-MAY-21&adults=2&child=0&h_adults=2&h_children=0&h_infants=0&a_adults=2&a_children=0&a_infants=0&rooms=1&airport=&AFF=&airportTo=&S=69136294&PC=&room=&rate=&currency=&amenities=&fareclass=E&selected_room=&selected_rate=&airline=&stops=&flight_opt=&agent=&usr=&m=Y&sub_source=&view_type=&IP=&chat=Y&PCC=&AirportDep=&usr_country=US&r=&rategroup=&hide_agent_info=&callc_num=&portfrom=&match=&call_center_country=&portto=",
         success: function (data, textStatus, jqXHR) {
           console.log(data);
-          for (let i = 0; i < 15; i++){
+          for (let i = 0; i < 100; i++){
             data = data.replace("src=\"/fastlink", "src=\"https://www.reservhotel.com/fastlink");
           }
           $("#loader").html(data);

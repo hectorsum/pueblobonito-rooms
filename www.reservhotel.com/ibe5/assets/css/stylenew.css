@@ -59,7 +59,7 @@
   width: 100% !important
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   .det-r {
     width: 1140px
   }
@@ -2158,7 +2158,7 @@ header#header>.sec-nav>ul>li a.selected {
   filter: alpha(opacity=(100))
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .mobile-see-more-rooms {
     display: block
   }
@@ -2187,13 +2187,13 @@ header#header>.sec-nav>ul>li a.selected {
   padding-top: 10px
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .hotel-list-box {
     width: 100%
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .hotel-list-box {}
 }
 
@@ -2202,7 +2202,7 @@ header#header>.sec-nav>ul>li a.selected {
   float: right
 }
 
-@media(max-width:1090px) {
+@media(max-width:1200px) {
   .hotel-list-box .nest-half-left {
     width: 100%;
     padding-left: 10px
@@ -2233,7 +2233,8 @@ header#header>.sec-nav>ul>li a.selected {
 
 .hotel-list-box .hotel-list>li .hotel-listing .hotel-thumb {
   float: left;
-  margin-right: 11px
+  margin-right: 11px;
+  margin: 0 !important;
 }
 
 @media(max-width:1090px) {
@@ -2320,7 +2321,7 @@ header#header>.sec-nav>ul>li a.selected {
   font-size: 11px
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 
   .hotel-list-box .compare-btn,
   .hotel-list-box .select-room-btn {
@@ -2341,7 +2342,7 @@ header#header>.sec-nav>ul>li a.selected {
   float: left
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .hotel-details-box {
     width: 100%
   }
@@ -2357,7 +2358,7 @@ header#header>.sec-nav>ul>li a.selected {
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .hotel-details-box .nest-half-right {
     padding-right: 30px
   }
@@ -2371,7 +2372,7 @@ header#header>.sec-nav>ul>li a.selected {
   margin-bottom: 15px
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .hotel-details-box .stuff {
     border-top: 1px solid #e6e6e6
   }
@@ -5529,7 +5530,7 @@ header#header>.sec-nav>ul>li a:hover {
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   div.all-wrap.fixed-width {
     width: 100% !important
   }

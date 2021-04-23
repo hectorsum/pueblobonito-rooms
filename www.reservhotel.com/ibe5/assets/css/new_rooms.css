@@ -1,0 +1,188 @@
+.rate-types-list{
+  margin: 0;
+}
+.raname{
+  margin-left:0;
+}
+.hr{
+  width: 100% !important;
+  margin: 0% !important;
+  background: rgba(198, 198, 198, .32) !important;
+}
+.rate-types-list>li .rate-type .price .rate-type-btn {
+  width: 100% !important;
+}
+.price {
+  color: #5a5959 !important;
+  font-family: FiraSans-Medium !important;
+  font-size: 18px !important;
+  padding: 9px 0 !important;
+  font-weight: 400 !important
+}
+
+.hotel-heading {
+  font-family: FiraSans-Medium !important;
+  font-size: 18px !important;
+  margin-bottom: 7px !important;
+  color: #000 !important;
+  font-weight: 400 !important
+}
+
+.hotel-desc {
+  font-size: 16px !important;
+  line-height: 16px !important;
+  color: #5a5959 !important;
+  font-family: FiraSans-Light !important;
+  /* padding-top: 3px */
+}
+.detail-head {
+  font-size: 22px !important;
+  font-family: FiraSans-Medium !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+}
+
+.txt {
+  font-size: 16px !important;
+  font-family: FiraSans-Light !important;
+  /* white-space: pre-line; */
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+/* .hotel-details-box .stuff {
+  margin: 0;
+  padding: 0;
+} */
+
+.hotel-details-box .stuff {
+  border: 0 !important;
+  padding: 24px 30px;
+  border-top: 1.5px solid #e6e6e6 !important;
+  border-bottom: 1.5px solid #e6e6e6 !important;
+  /* margin-left: 28px !important; */
+  /* margin: auto; */
+  /* margin-right: 26px !important;
+  width: 95%; */
+  margin: 0 !important;
+  width: 100%;
+}
+
+.rate-type-name {
+  margin-left: 0;
+}
+
+@media (min-width: 1200px){
+  .descrip-select {
+    margin: 12px 0;
+  }
+  .prince2{
+    width: 100%;
+  }
+  .prince2 .compare-btn2, .prince2 .select-room-btn2{
+    margin: 0;
+    padding: 8px 16px !important;
+  }
+}
+
+@media (max-width: 1200px){
+  .hotel-list-box .hotel-list>li .hotel-listing .hotel-thumb {
+    margin: 0px !important;
+    /* height: 100% !important; */
+  }
+  .prince2{
+    width: 100%;
+  }
+  .prince2 .compare-btn2, .prince2 .select-room-btn2{
+    margin: 0;
+    padding: 8px 16px !important;
+  }
+  .descrip-select {
+    margin: 12px 0;
+  }
+  .boton>li.with-airport{
+    overflow: hidden;
+    position: realtive;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 8px 8px 0 !important;
+    min-width: 135px !important;
+    padding: 0 !important;
+  }
+  .static-airport {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media(max-width:768px) {
+  
+  .No-padding-LR {
+    padding: 0;
+  }
+  .prince2{
+    width: 100%;
+  }
+  #next-step-summ, .hotel-list-box .compare-btn2, .hotel-list-box .select-room-btn2, .select-btn-summ, .compare-btn2{
+    margin-right: 0 !important;
+  }
+  .hotel-list-box .hotel-list>li .hotel-listing .hotel-thumb{
+    min-height: 100%;
+    margin: 0;
+  }
+  footer {
+    padding: 25px 10px!important;
+  }
+  .hotel-details-box .nest-half-right{
+    padding: 0 10px !important;
+  }
+  .hotel-details-box .stuff .hotel-big-images .slides li img{
+    height: 100% !important;
+    object-fit: initial;
+    min-width: initial !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .rate-types-list>li .rate-type .price{
+    padding: 0;
+  }
+  .descrip-select{
+    margin: 12px 0;
+  }
+  .raname{
+    margin-left:0;
+  }
+  .hotel-list-box .select-room-btn2 {
+    font-size: 14px !important;
+    padding: 10px;
+    padding: 16px 32px !important;
+  }
+  .hotel-details-box .stuff{
+    padding: 1rem !important;
+    margin: 0;
+  }
+  .inbox {
+    /* padding-left: 0; */
+    /* padding-right: 31px; */
+    padding: 0;
+  }
+  .rate-types-list {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .compare-btn2 {
+    margin-bottom: 0;
+  }
+  .sm-pad {
+    padding-right: 5px;
+    padding-left: 0;
+    padding: 0;
+  }
+}
+@media(max-width:380px) {
+  header#header>div.top-nav .travel-summary-box{
+    width: 56% !important;
+  }
+}

@@ -56,8 +56,8 @@ body {
 }
 
 #footer .section-footer {
-  margin-right: -15px !important;
-  margin-left: -15px !important
+  /* margin-right: -15px !important;
+  margin-left: -15px !important */
 }
 
 #footer .section-footer .col-md-4 {
@@ -65,7 +65,7 @@ body {
 }
 
 #footer .section-footer .row {
-  margin-left: -15px !important
+  /* margin-left: -15px !important */
 }
 
 .compare-btn2.btn-blue {
@@ -206,7 +206,7 @@ a {
   color: #2b2c2d !important;
   font-family: FiraSans-SemiBold !important;
   font-size: 15.16px !important;
-  margin-left: 13px
+  /* margin-left: 13px */
 }
 
 .descrip-select {
@@ -257,7 +257,7 @@ b {
 
 .sta-div {
   text-align: right !important;
-  margin-bottom: 7px !important
+  /* margin-bottom: 7px !important */
 }
 
 .rate-type.selected {
@@ -442,12 +442,12 @@ li {
 }
 
 .rate-types-list {
-  margin: 17px -30px !important
+  /* margin: 17px -30px !important */
 }
 
 .lis-sect {
   margin-bottom: 10px;
-  width: 98%
+  width: 100%
 }
 
 .rate-type-name {
@@ -460,7 +460,7 @@ li {
 
 .rate-types-list>li .rate-type .price {
   display: block !important;
-  padding-right: 15px !important
+  padding-right: 15px;
 }
 
 .rate-types-list>li .rate-type .rate-type-btn:hover {
@@ -599,13 +599,13 @@ form {
   }
 
   .No-padding-LR {
-    padding-left: 0 !important;
-    padding-right: 0 !important
+    /* padding-left: 0 !important;
+    padding-right: 0 !important */
   }
 
   .nes-left {
-    padding-left: 0 !important;
-    padding-right: 0 !important
+    /* padding-left: 0 !important;
+    padding-right: 0 !important */
   }
 
   .from-align {
