@@ -1,1 +1,77 @@
-.breadcrumb-item::after{content:url(../images/flechapasos.png);padding-left:40px;padding-right:40px}.breadcrumb-item+.breadcrumb-item::before{content:""}.breadcrumb-item:last-child::after{content:""}.breadcrumb-item{display:inline-flex;align-items:center;text-align:center}.breadcrumb{display:inline-flex}.breadcrumb-item a{font-size:14.15px;text-decoration:none;color:#5d5d5d;white-space:nowrap}.breadcrumb-item.active a{font-family:FiraSans-SemiBold;color:#000!important}.breadcrumb-header{width:80%;margin:0 auto;overflow:hidden}.nav-breadcrumb{background:#fff;box-shadow:0 5px 7px -2px #d7d7d7;margin-bottom:8px}.breadcrumb{background:0 0;padding-bottom:0}@media(max-width:790px){.breadcrumb-header{width:100%}.nav-breadcrumb{display:none}}.breadcrumb-item a:hover{color:#000}.step-finish::after{content:none!important}.fa-check-circle{padding-left:20px;padding-right:10px;font-size:35px!important;color:#f3dfa4}
+.breadcrumb-item::after {
+  content: url(../images/flechapasos.png);
+  padding-left: 40px;
+  padding-right: 40px
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ""
+}
+
+.breadcrumb-item:last-child::after {
+  content: ""
+}
+
+.breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  text-align: center
+}
+
+.breadcrumb {
+  display: inline-flex
+}
+
+.breadcrumb-item a {
+  font-size: 14.15px;
+  text-decoration: none;
+  color: #5d5d5d;
+  white-space: nowrap
+}
+
+.breadcrumb-item.active a {
+  font-family: FiraSans-SemiBold;
+  color: #000 !important
+}
+
+.breadcrumb-header {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden
+}
+
+.nav-breadcrumb {
+  background: #fff;
+  box-shadow: 0 5px 7px -2px #d7d7d7;
+  margin-bottom: 8px
+}
+
+.breadcrumb {
+  background: 0 0;
+  padding-bottom: 0
+}
+
+@media(max-width:790px) {
+  .breadcrumb-header {
+    width: 100%
+  }
+
+  .nav-breadcrumb {
+    display: none
+  }
+}
+
+.breadcrumb-item a:hover {
+  color: #000
+}
+
+.step-finish::after {
+  content: none !important
+}
+
+.fa-check-circle {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 35px !important;
+  color: #f3dfa4
+}
