@@ -1,3 +1,6 @@
+.update-desktop{
+  width: 50% !important;
+}
 .rate-types-list{
   margin: 0;
 }
@@ -77,6 +80,11 @@
   }
   .prince2{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .prince2 .compare-btn2, .prince2 .select-room-btn2{
+    margin-right: 0.5rem !important;
   }
   .prince2 .compare-btn2, .prince2 .select-room-btn2{
     margin: 0;
@@ -95,6 +103,7 @@
   .prince2 .compare-btn2, .prince2 .select-room-btn2{
     margin: 0;
     padding: 8px 16px !important;
+    margin-bottom: 1rem !important;
   }
   .descrip-select {
     margin: 12px 0;
@@ -115,7 +124,12 @@
 }
 
 @media(max-width:768px) {
-  
+  .update-desktop{
+    width: 100% !important;
+  }
+  .section-footer .footer-content{
+    width: 50% !important;
+  }
   .No-padding-LR {
     padding: 0;
   }
